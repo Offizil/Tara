@@ -1,0 +1,130 @@
+{
+  "benin": {
+    "tribe": "Fon",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Patrice Talon",
+    "nationalTeam": "Les Écureuils",
+    "musicians": ["Angélique Kidjo", "Toofan", "Zeynab"],
+    "topAttractions": ["Pendjari National Park", "Ganvié (Venice of Africa)", "Abomey Royal Palaces", "Dantokpa Market", "St. Louis Cathedral", "Ouidah Slave Route", "Sakété Rail Station", "Kpomassè", "Lokossa", "Natitingou"]
+  },
+  "burkina faso": {
+    "tribe": "Mossi",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Ibrahim Traoré",
+    "nationalTeam": "Les Étalons",
+    "musicians": ["Amadou & Mariam", "Victor Démé", "Tiken Jah Fakoly"],
+    "topAttractions": ["Ouagadougou Grand Mosque", "Sindou Peaks", "Banfora Cascades", "Lobi Village", "Nazinga Game Ranch", "Tengrela Lake", "Bazoule Hippopotamus Reserve", "Koudougou Cathedral", "Karfiguéla Waterfalls", "Cascades de Banfora"]
+  },
+  "cape verde": {
+    "tribe": "Creole",
+    "currency": "Cape Verdean escudo (CVE)",
+    "president": "José Maria Neves",
+    "nationalTeam": "The Blue Sharks",
+    "musicians": ["Cesária Évora", "Mayra Andrade", "Lura"],
+    "topAttractions": ["Fogo Volcano", "Sal Island beaches", "Santo Antão hikes", "Cidade Velha", "Boa Vista dunes", "Brava Island", "Mindelo harbor", "Santa Maria", "Monte Verde (São Vicente)", "São Nicolau Island"]
+  },
+  "côte d’ivoire": {
+    "tribe": "Baoulé",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Alassane Ouattara",
+    "nationalTeam": "Les Éléphants",
+    "musicians": ["Alpha Blondy", "Magic System", "Aya Nakamura"],
+    "topAttractions": ["Basilica of Our Lady of Peace", "Comoé National Park", "Taï National Park", "Grand-Bassam", "Man Monkey Forest", "Mount Nimba", "Sassandra Beaches", "Yamoussoukro Lake", "Bouaké Market", "Niokolo-Koba Park"]
+  },
+  "gambia": {
+    "tribe": "Mandinka",
+    "currency": "Gambian dalasi (GMD)",
+    "president": "Adama Barrow",
+    "nationalTeam": "The Scorpions",
+    "musicians": ["Juldeh Camara", "Jali Nyama Suso", "Ebou Jammeh"],
+    "topAttractions": ["Kunta Kinteh Island", "Abuko Nature Reserve", "River Gambia National Park", "Bijilo Forest Park", "Senegambia Strip", "Arch 22 Memorial", "Juffureh Village", "Cape Point", "Tanji Fishing Village", "Bakau Botanical Gardens"]
+  },
+  "ghana": {
+    "tribe": "Akan",
+    "currency": "Ghanaian cedi (GHS)",
+    "president": "Nana Akufo-Addo",
+    "nationalTeam": "Black Stars",
+    "musicians": ["Sarkodie", "Shatta Wale", "Stonebwoy"],
+    "topAttractions": ["Cape Coast Castle", "Kakum National Park", "Elmina Castle", "Mole National Park", "Lake Volta", "Wli Waterfalls", "Kwame Nkrumah Mausoleum", "Accra Arts Centre", "Aburi Botanical Gardens", "Boabeng-Fiema Monkey Sanctuary"]
+  },
+  "guinea": {
+    "tribe": "Peul",
+    "currency": "Guinean franc (GNF)",
+    "president": "Mamady Doumbouya",
+    "nationalTeam": "Syli Nationale",
+    "musicians": ["Mory Kanté", "Sékouba Bambino", "Salif Keita"],
+    "topAttractions": ["Mount Nimba", "Conakry Grand Mosque", "Réserve du Badiar", "Îles de Loos", "Dulala Falls", "Madinari Falls", "Conakry Market", "Sambaya Island", "Kindia Mountains", "Fouta Djallon Highlands"]
+  },
+  "guinea-bissau": {
+    "tribe": "Balanta",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Umaro Sissoco Embaló",
+    "nationalTeam": "Djurtus",
+    "musicians": ["Manecas Costa", "Tony Amado", "Titina"],
+    "topAttractions": ["Bijagós Archipelago", "Bolama", "Orango Island", "Bissagos Biosphere", "Bafatá Mosque", "Cacheu River", "Tombali Region", "São João dos Angolares", "Cufada Lagoon", "Ilha de Caravela"]
+  },
+  "liberia": {
+    "tribe": "Kpelle",
+    "currency": "Liberian dollar (LRD)",
+    "president": "Joseph Boakai",
+    "nationalTeam": "Lone Stars",
+    "musicians": ["Miatta Fahnbulleh", "Sundaygar Dearboy", "Franklyn Dennis"],
+    "topAttractions": ["Sapo National Park", "Providence Island", "Liberia National Museum", "Lake Piso", "Kpatawee Waterfalls", "Blue Lake", "Mount Nimba Scenic Reserve", "Gola Rainforest", "Robert’sport", "Kakata Forest Reserve"]
+  },
+  "mali": {
+    "tribe": "Bambara",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Assimi Goïta",
+    "nationalTeam": "Les Aigles",
+    "musicians": ["Salif Keita", "Ali Farka Touré", "Oumou Sangaré"],
+    "topAttractions": ["Timbuktu", "Djenne Mosque", "Bandiagara Escarpment", "Niger River", "Segou Colonial Town", "Gao City", "Monument of Independence", "Mopti Markets", "Djenné Festival", "Niger Loop"]
+  },
+  "mauritania": {
+    "tribe": "Haalpulaar",
+    "currency": "Mauritanian ouguiya (MRU)",
+    "president": "Mohamed Ould Ghazouani",
+    "nationalTeam": "Les Mourabitounes",
+    "musicians": ["Sahra Halgan", "Dimi Mint Abba", "Noura Mint Seymali"],
+    "topAttractions": ["Banc d'Arguin National Park", "Chinguetti", "Sahara Desert", "Nouakchott Medina", "Terjit Oasis", "Historic Ksour", "Cap Blanc", "Aleg", "Richat Structure", "Ouadane"]
+  },
+  "niger": {
+    "tribe": "Hausa",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Abdourahamane Tchiani",
+    "nationalTeam": "Menas",
+    "musicians": ["Bombino", "Zeynab", "Tal National"],
+    "topAttractions": ["Air and Tenéré Natural Reserves", "Aïr Mountains", "Zinder old town", "Lake Chad", "W National Park", "Geurza Falls", "Agadez Mosque", "Ténéré Desert", "Iferouane", "Niamey Grand Mosque"]
+  },
+  "nigeria": {
+    "tribe": "Hausa",
+    "currency": "Nigerian naira (₦)",
+    "president": "Bola Ahmed Tinubu",
+    "nationalTeam": "Super Eagles",
+    "musicians": ["Burna Boy", "Wizkid", "Davido"],
+    "topAttractions": ["Zuma Rock", "Olumo Rock", "Yankari National Park", "Lekki Conservation Centre", "Awhum Waterfall", "Obudu Mountain Resort", "Erin-Ijesha Waterfall", "Nike Art Gallery", "Idanre Hills", "Ogbunike Caves"]
+  },
+  "senegal": {
+    "tribe": "Wolof",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Bassirou Diomaye Faye",
+    "nationalTeam": "Lions of Teranga",
+    "musicians": ["Youssou N'Dour", "Baaba Maal", "Mariama"],
+    "topAttractions": ["Dakar Corniche", "Île de Gorée", "Pink Lake", "Saloum Delta", "Djoudj National Bird Sanctuary", "Saint-Louis", "Bandia Reserve", "Casamance", "Lake Retba", "Jollof Festival"]
+  },
+  "sierra leone": {
+    "tribe": "Temne",
+    "currency": "Sierra Leonean leone (SLL)",
+    "president": "Julius Maada Bio",
+    "nationalTeam": "Leone Stars",
+    "musicians": ["Singing Sandra", "Emmerson Bockarie", "Stevie"],
+    "topAttractions": ["Tacugama Chimpanzee Sanctuary", "Bunce Island", "Tiwai Island", "Lumley Beach", "Outamba-Kilimi National Park", "Sierra Leone National Railway Museum", "Mount Bintumani", "Lumley-Goderich Promenade", "Western Area Peninsula Forest", "Rousseau Peak"]
+  },
+  "togo": {
+    "tribe": "Ewe",
+    "currency": "West African CFA franc (XOF)",
+    "president": "Faure Gnassingbé",
+    "nationalTeam": "Les Éperviers",
+    "musicians": ["Bella Bellow", "King Mensah", "TK"],
+    "topAttractions": ["Koutammakou", "Fazao-Malfakassa National Park", "Togoville", "Akloa Beach", "Lomé Grand Market", "Aného", "Kpalimé waterfalls", "Mount Agou", "Mono River", "Ewe cultural villages"]
+  }
+}

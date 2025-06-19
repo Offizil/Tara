@@ -1,0 +1,484 @@
+/* Fade and slide in */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply to main sections */
+main, #country-info, #image-gallery, #signup-message {
+  animation: fadeSlideUp 0.6s ease-out both;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------MY BABY---------------------- */
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f9ff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #005bbb;
+}
+
+
+#country-info {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+#country-info img {
+  margin-top: 1rem;
+  max-width: 100px;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+/* Image Gallery */
+#image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+#image-gallery img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#image-gallery{
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+/* Utility */
+.error {
+  color: crimson;
+  font-weight: bold;
+}
+
+
+#search-history {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+
+#favorites-list {
+   background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+
+}
+
+#show-favorites
+{
+  margin: 20px 0px 20px 30% ;
+  border: none;
+}
+
+/* ---------BUTTON STYLING------------ */
+
+
+/* Save to Favorites button */
+.save-fav {
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-fav:hover {
+  background-color: #005fa3;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* History & Favorites - styled like links or menu items */
+.history-btn,
+.fav-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  color: darkslateblue;
+  cursor: pointer;
+  border-left: 4px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.history-btn:hover,
+.fav-btn:hover {
+  background-color: #f0f8ff;
+  border-left: 4px solid darkslateblue;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* divs for history & favorites */
+#search-history,
+#favorites-list {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+}
+
+
+
+h3 {
+  margin-top: 2rem;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3rem;
+}
+
+
+
+
+
+/* sign up wahala */
+
+.message-box {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f0f8ff;
+  border: 1px solid #0077cc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.message-box h2 {
+  color: #0077cc;
+}
+
+
+/* extra info list styling */
+
+#country-info ul {
+  list-style: none;        
+  padding: 0;              
+  margin: 1rem 0;
+}
+
+#country-info ul li {
+  background-color: #f0f8ff; 
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+#country-info ul li:hover {
+  background-color: #e0f2ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----LOGO COMPLEX------ */
+#logo_comp {
+    width: 120px;
+    border: none;
+}
+
+
+#logo_comp p {
+    padding-top: -20px;
+    font-size: .7rem;
+    margin-left: 10px;
+    color: rgb(70, 69, 69);
+
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: -35px;
+    /* text-align: center; */
+
+}
+/* ---------------------------- */
+
+
+/* ------------profile avatar--------- */
+#profile_avatar {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 40px;
+}
+
+/* --------------------------------- */
+
+.search-container {
+display: flex;
+flex-direction: column;
+max-width: 850px;
+margin: 0 auto;
+text-align: center;
+color: beige;
+
+}
+
+.search-container h2 {
+margin-top: 100px;
+font-size: 4rem;
+
+}
+#hero {
+background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/map.webp");
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative
+
+}
+
+#search-input, 
+#city-input {
+  flex: 1;
+  padding: 1.5rem;
+  font-size: 1rem;
+
+  margin: 20px;
+}
+
+button {
+  padding: 0.5rem .5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+button:hover {
+    background-color: #3d2a46;
+    color: yellow;
+    transform: scale(1.05);
+
+}
+
+#results {
+  margin-top: 1rem;
+}
+
+
+/* -------------FOOTER--------------------- */
+
+
+footer {
+    padding: 20px;
+    background-color: #3d2a46;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+#lastModified, #year {
+    color: #e7e706b9;
+}
+
+
+/* -------------FORM sign_up page---------------- */
+
+.reg_form {
+  /* display: block; */
+  background-color: #3d2a46;
+  border-radius: 10px;
+  color: beige;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 40px;
+
+}
+
+.reg_form input[type="text"],
+.reg_form input[type="email"] {
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* color: grey; */
+  width: 400px;
+  display: block;
+
+}
+
+
+.reg_form input[type="submit"] {
+  background-color: beige;
+  display: block;
+  color: purple;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: bolder;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.reg_form input[type="submit"]:hover {
+  background-color: black;
+  color: beige;
+  transform: scale(1.05);
+
+}
+
+.reg_form input[type="checkbox"] {
+    /* display: block; */
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin-bottom: 60px;
+}
+
+
+#req {
+  color: red;
+}
+
+
+
+
+/* ----DARK MODE-------------- */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark button,
+.dark input {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.dark #country-info {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+#theme-toggle {
+    width: 120px;
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+/* -----ADVANCEE CSS requirements. adding a sift popp effect */
+.card, .history-btn, #favorites-list button {
+  animation: fadeSlideUp 0.4s ease;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover,
+.history-btn:hover,
+#favorites-list button:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  transform: translateY(-4px);
+}

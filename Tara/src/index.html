@@ -2,14 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="/css/styles.css" />
-  <title>Tara Travel Guide</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Tara Geo Guide</title>
+
+
+    <script defer src="js/getdates.js"></script>
+  <script defer type="module" src="js/main.js"></script>
+
+
 </head>
 <body>
-  <div id="app">
-    <!-- Your UI will be rendered here -->
+  <button id="theme-toggle">Dark Mode</button>
+  <header>
+    <div id="logo_comp">
+      <img src="assets/Tara-logo.png" width="100" height="100" loading="lazy" alt="Tara-logo" id="logo">
+      <p id="logo_txt">Tara Mini-Geo Guide</p>
+    </div>
+
+
+    <a href="sign_up.html" target="_blank"><img src="assets/user-p.png" loading="lazy" alt="user-profile" id="profile_avatar"></a>
+  </header>
+
+  <main>
+  <div id="hero">
+    <form id="search-form">
+      <div class="search-container">
+        <h2>What is your Destination</h2>
+        <input type="text" id="search-input" placeholder="Search for your destination..."  required/>
+        <input type="text" id="city-input" placeholder="Optional: Enter a city name..." />
+
+        <button type="submit">Search</button>
+      </div>
+    </form>
+
   </div>
 
-  <script type="module" src="js/main.js"></script>
-</body> Tara\src\js\main.js
+      <!-- ---here--new -->
+    
+    <button id="show-favorites">
+      Show Favorites
+    </button>
+
+  <h3>Favorites</h3>
+<div id="favorites-list">
+  
+</div>
+
+<!-- ----- -->
+
+<h3>Recently Searched</h3>
+<div id="search-history" class="history-box">
+  
+</div>
+
+
+<h3 id="country_name"> Destination info</h3>
+  <div id="country-info">
+    
+
+  </div>
+
+  <h3>Gallery</h3>
+  <div id="image-gallery" class="gallery">
+    
+  </div>
+
+
+  </main>
+
+
+  <footer>
+    <div id="signature">
+      <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria |
+      <span id="lastModified">incoming javascript code</span></p>
+    </div>
+  </footer>
+</body> 
 </html>
+

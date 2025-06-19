@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Tara Travel Guide</title>
+
+
+    <script defer src="js/getdates.js"></script>
+  <script defer type="module" src="js/main.js"></script>
+  <script defer type="module" src="js/signup.js"></script>
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const messageBox = document.getElementById('signup-message');
+    const stored = localStorage.getItem('signup-form');
+
+    if (stored) {
+      const data = JSON.parse(stored);
+      messageBox.innerHTML = `
+        <h2>Welcome, ${data.name}!</h2>
+        <p>Confirmation email sent to <strong>${data.email}</strong>.</p>
+        <p>Redirecting to homepage...</p>
+      `;
+
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 5000);
+    } else {
+      messageBox.innerHTML = `<p>No signup data found. Please try again.</p>`;
+    }
+  });
+</script>
+
+</head>
+<body>
+  <button id="theme-toggle">Dark Mode</button>
+  <header>
+    <div id="logo_comp">
+      <img src="assets/Tara-logo.png" width="100" height="100" loading="lazy" alt="Tara-logo" id="logo">
+      <p id="logo_txt">Tara Travel Guide</p>
+    </div>
+
+
+    <a href="sign_up.html" target="_blank"><img src="assets/user-p.png" loading="lazy" alt="user-profile" id="profile_avatar"></a>
+  </header>
+
+
+  <main class="thank-you-container">
+
+    <div id="signup-message" class="message-box"></div>
+
+
+  </main>
+
+
+  <!-- <script type="module" src="js/main.js"></script> -->
+  <footer>
+    <div id="signature">
+      <p>&copy; <span id="year"></span> | Edem Offiong | Nigeria |
+      <span id="lastModified">incoming javascript code</span></p>
+    </div>
+  </footer>
+</body> 
+</html>
+
