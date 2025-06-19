@@ -6,7 +6,8 @@ export default defineConfig({
   root: "src/",
 
   build: {
-    outDir: "./dist",
+    outDir: "../dist",
+    emptyOutDir: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),        
@@ -17,3 +18,28 @@ export default defineConfig({
     },
   },
 });
+
+
+
+
+
+
+
+
+// ---------------------------------
+// import { defineConfig } from 'vite'
+
+// export default defineConfig({
+//   root: 'src/',
+
+//   build: {
+//     outDir: 'dist',  
+//         rollupOptions: {
+//       input: {
+//         main: 'index.html',
+//         signup: 'sign_up.html',
+//         welcome: 'welcome.html',
+//       },
+//     },
+//   },
+// })
