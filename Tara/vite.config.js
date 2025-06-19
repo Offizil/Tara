@@ -6,12 +6,12 @@ export default defineConfig({
   root: "src/",
 
   build: {
-    outDir: "../dist",
+    outDir: "./dist",
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),        
-        signup: resolve(__dirname, "src/signup.html"),
-        welcome: resolve(__dirname, "src/welcome.html"),
+        // signup: resolve(__dirname, "src/signup.html"),
+        // welcome: resolve(__dirname, "src/welcome.html"),
        
       },
     },
