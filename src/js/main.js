@@ -92,7 +92,11 @@ async function displayCountryInfo(country) {
 // ------------------ DISPLAY IMAGE GALLERY ------------------
 function displayImages(images) {
   const html = images.map(img => `
-    <img src="${img.urls.small}" alt="${img.alt_description}" loading="lazy">
+    <img src="${img.urls.small}" 
+    alt="${img.alt_description}" 
+    loading="lazy"
+
+    class="gallery-img">
   `).join('');
   imageGallery.innerHTML = html;
 }
