@@ -46,7 +46,7 @@ form.addEventListener('submit', async (e) => {
     const saveBtn = document.createElement('button');
     saveBtn.textContent = 'Save to Favorites';
     saveBtn.type = 'button';
-    saveBtn.classList.add('save-fav'); // added class to save button
+    saveBtn.classList.add('save-fav');
     saveBtn.addEventListener('click', () => {
       let favs = JSON.parse(localStorage.getItem('favorites')) || [];
       const name = countryData.name.common;
@@ -83,7 +83,7 @@ async function displayCountryInfo(country) {
       <ul>
         ${extra.topAttractions.map(item => `<li>${item}</li>`).join('')}
       </ul>
-    ` : '<p><em>No extra information available for this country.</em></p>'}
+    ` : '<p><em>No extra information available for this country.<br>Extra information is only available for West African countries.</em></p>'}
   `;
 
   infoContainer.innerHTML = html;
